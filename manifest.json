@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Calvin College Class Rank Using RateMyProfessor.com",
+  "version": "1.0",
+
+  "description": "Ranks class within a required list by what information is given from ratemyprofessor.com.",
+
+  "permissions": [
+    "<all_urls>"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [ "https://selfservice.calvin.edu/*" ],
+      "js": [ "main.js", "test.js" ]
+    }
+  ]
+}
