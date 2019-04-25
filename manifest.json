@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Calvin College Teacher Rank",
+  "name": "Calvin College Class Rank Using RateMyProfessor.com",
   "version": "1.0",
 
-  "description": "Ranks Teachers on Calvin College Website",
+  "description": "Ranks class within a required list by what information is given from ratemyprofessor.com.",
 
   "permissions": [
     "<all_urls>"
